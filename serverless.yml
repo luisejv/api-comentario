@@ -1,4 +1,4 @@
-org: geraldocolchado
+org: luisejv
 service: api-comentario
 
 provider:
@@ -7,7 +7,7 @@ provider:
   # Default memory size for functions (default: 1024MB)
   memorySize: 1024
   iam:
-    role: arn:aws:iam::447891120606:role/LabRole	
+    role: arn:aws:iam::320481491119:role/LabRole	
   environment:
     TABLE_NAME: ${sls:stage}-t_comentarios
 
